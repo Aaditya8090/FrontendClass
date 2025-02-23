@@ -1,0 +1,24 @@
+body{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0Sxg39F05o1oYHMGHW2nfNYvEsuvQj36tLA&s);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.nav{
+	background-attachment: fixed;
+	display: flex;
+	justify-content: space-around;
+}
+
+.nav-items div{
+	margin: 0px 20 px;
+}
+
+.nav-items{
+	display: flex;
+}
+
+form{
+	text-align: center;
+
+}

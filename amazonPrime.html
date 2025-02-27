@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Welcome to Prime Video</title>
+</head>
+<body class="bg-black">
+    <div class="container bg-black">
+
+        <!-- nav bar -->
+
+        <div class="flex justify-between py-4 bg-black px-20">
+            <div class="flex gap-10 justify-center items-center text-base text-white font-semibold">
+                <div class="text-xl font-bold">prime video</div>
+                <div>Home</div>
+                <div>Movies</div>
+                <div>TV Shows</div>
+                <div>Live TV</div>
+                <div>|</div>
+                <div>Subscriptions</div>
+            </div>
+            <div class="flex gap-6 items-center font-semibold text-white">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <div>
+                    <label for="en">En</label>
+                    <select name="en" id="en">
+                        <option value=""></option>
+                     </select>
+                </div>
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-circle-user"></i>
+                <div class="flex justify-center items-center bg-blue-400 p-5 w-[8vw] h-[5vh] rounded"><a>Join Prime</a></div>
+            </div>
+        </div>
+
+        <!-- main body -->
+
+        <div class="flex gap-6 p-10">
+            <div class="flex flex-col">
+                <div class="flex flex-col text-white justify-center p-10 gap-[5vh] py-8">
+                    <div class="text-5xl font-bold">Welcome to Prime Video</div>
+                    <div class="flex flex-wrap text-xl">Join prime to watch the latest movies, TV shows and award winning amazon-originals</div>
+                    <div class="flex justify-center items-center bg-white w-[13vw] h-[6vh] p-5 rounded text-black font-semibold">Sign in to join prime</div>
+                </div>
+                <div></div>
+            </div>
+            <div class="object-contain"><img src="https://m.media-amazon.com/images/M/MV5BZjZhOTliNTMtZGVlOS00NDgwLWE5MzctM2VlNTY1OWE3YzRiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt=""></div>
+        </div>
+
+
+    </div>
+</body>
+</html>
